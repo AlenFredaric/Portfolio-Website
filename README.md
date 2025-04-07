@@ -19,7 +19,7 @@ Welcome to my personal portfolio website! This project showcases who I am as a d
 │   └── Portfolio.jsx
 ├── package.json
 ├── README.md
-└── ...
+
 ________________________________________
 	Preview
 ![image](https://github.com/user-attachments/assets/2b208c82-61a7-4077-85aa-08b020668f42)
@@ -49,7 +49,7 @@ ________________________________________
 ________________________________________
 	 Contact
 -	 Email: alenfredaricfrancis@gmail.com
--	 LinkedIn: Alen Fredaric 
--	 GitHub: @AlenFredaric
+-	 LinkedIn: https://www.linkedin.com/in/alen-fredaric-francis-b618a827a/
+-	 GitHub: https://github.com/AlenFredaric
 
 
