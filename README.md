@@ -1,4 +1,5 @@
 Alen Fredaric Francis – Portfolio Website
+
 Welcome to my personal portfolio website! This project showcases who I am as a developer, including my skills, education, and selected projects built using various technologies such as React, MERN Stack, Python Django, and more.
 	Features
 - Responsive modern design
