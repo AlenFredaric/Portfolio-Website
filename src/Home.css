@@ -1,6 +1,6 @@
 /* Home.css */
 
-/* Reset and base */
+/* Base */
 body {
     margin: 0;
     padding: 0;
@@ -116,6 +116,63 @@ body {
   .resume-button:hover {
     background-color: #0284c7;
   }
+
+  /*Skill Section */
+  .skills-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f7f7f7;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    transition: transform 0.3s ease;
+}
+
+.skill-item:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    font-size: 3rem;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Optional custom colors */
+.react { color: #61dafb; }
+.redux { color: #764abc; }
+.js { color: #f7df1e; }
+.html { color: #e34c26; }
+.css { color: #2640a9; }
+.bootstrap { color: #7952b3; }
+.vite { color: #646cff; }
+.node { color: #68a063; }
+.express { color: #000; }
+.mongo { color: #4DB33D; }
+.python { color: #306998; }
+.db { color: #f29111; }
+.git { color: #f05032; }
+
   
   /* Projects Section */
   .projects-section {
